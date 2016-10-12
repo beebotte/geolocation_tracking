@@ -1,0 +1,37 @@
+<html>
+   <head>
+	<meta charset="UTF-8" />
+	<title>Car Tracking</title>
+	
+		
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script type="text/javascript"  src="https://maps.googleapis.com/maps/api/js?sensor=false&libraries=geometry"></script>
+     	<script src="js/location.js"></script>
+	<script src="https://cdn.socket.io/socket.io-1.1.0.js"> </script>
+	<script src="https://beebotte.com/bbt.js"></script>	
+	<script>
+			if (!window.jquery)
+			{				
+				var jq = document.createElement('script'); jq.type = 'text/javascript';
+				jq.src = 'https://code.jquery.com/jquery-2.2.4.min.js';
+				document.getElementsByTagName('head')[0].appendChild(jq);
+			}
+		$(document).ready(function() {		
+			init();
+		});
+			
+	</script>
+   </head>
+   <body>
+<div id="welcome-page" data-role="page">
+		<header data-role="header">
+			<h1>Car Tracking</h1>
+		</header>
+		<div id="content" data-role="content">    
+			<div >
+				<input type='button' onclick='publishLocation()' value='Publish Location'></input>
+			</div>		
+		</div>			
+      	</div>
+   </body>
+</html> 
