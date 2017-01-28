@@ -12,7 +12,7 @@ Google Map.
 
 1. Fork this github repository
 2. run: `npm install`
-3. replace *apiKey* and *secretKey* with those of your account in *app.js*,
+3. replace **apiKey** and **secretKey** with those of your account in *app.js*,
 *public/monitor.html*, and, *public/track.html*
 4. run: `node app.js`
 5. Open your favourite browser and navigate to *localhost:8080/track.html*
