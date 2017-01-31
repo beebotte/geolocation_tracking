@@ -1,6 +1,6 @@
-# Car Tracking Demo
+# Geolocation Tracking Demo
 
-This project demonstrates how to build a simple car tracking web application
+This project demonstrates how to build a simple geolocation tracking web application
 with Beebotte.
 
 * *public/track.html* uses **GeoLocation API** to watch the device Location
